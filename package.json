@@ -1,0 +1,21 @@
+{
+  "name": "danmo-theme",
+  "displayName": "danmo theme",
+  "description": "淡抹",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "danmo",
+        "uiTheme": "vs",
+        "path": "./themes/danmo-color-theme.json"
+      }
+    ]
+  }
+}
